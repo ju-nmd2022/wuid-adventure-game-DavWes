@@ -38,17 +38,6 @@ p {
   border: solid 3px black;
 }
 
-.body-grid-md {
-  display: grid;
-  place-items: center;
-}
-
-.body-grid-md img {
-  height: 600px;
-  width: 900px;
-  border: solid 3px black;
-}
-
 .inventory {
   display: flex;
   border: 3px solid black;
@@ -60,4 +49,23 @@ p {
   text-align: center;
   border: solid 3px red;
   /* flex: 0 0 calc((100% - (20px * 6)) / 4); */
+}
+
+.middle-section {
+  border: solid 3px red;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  /* gap: 12%; */
+}
+
+.my-hp {
+  text-align: center;
+  border: solid 3px green;
+}
+
+.enemy-hp {
+  text-align: center;
+  border: solid 3px blue;
 }
