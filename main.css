@@ -3,6 +3,61 @@
   padding: 0;
 }
 
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  padding: 1%;
+}
+
 h1 {
   font-family: "Poppins", sans-serif;
+  font-size: 38px;
+}
+
+p {
+  font-size: 24px;
+  padding: 5px;
+}
+
+.body-grid {
+  display: grid;
+  place-items: center;
+}
+
+.body-grid img {
+  height: 600px;
+  width: 900px;
+  border: solid 3px black;
+}
+
+.body-grid-md {
+  display: grid;
+  place-items: center;
+}
+
+.body-grid-md img {
+  height: 600px;
+  width: 900px;
+  border: solid 3px black;
+}
+
+.inventory {
+  display: flex;
+  border: 3px solid black;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inventory-boxes {
+  text-align: center;
+  border: solid 3px red;
+  /* flex: 0 0 calc((100% - (20px * 6)) / 4); */
 }
