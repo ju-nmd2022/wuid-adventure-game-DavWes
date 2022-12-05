@@ -69,3 +69,15 @@ p {
   border: solid 3px blue;
   align-items: center;
 }
+
+#thering {
+  display: none;
+}
+
+#thesam {
+  display: none;
+}
+
+#thesting {
+  display: none;
+}
