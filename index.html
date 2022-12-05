@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The One Ring</title>
     <link rel="stylesheet" href="main.css" />
+    <script src="script.js">
+      defer
+    </script>
   </head>
   <body>
     <header>
@@ -18,24 +21,34 @@
         <p>What do you do?</p>
       </div>
     </header>
+    <div id="inventory"></div>
     <div class="body-grid">
       <img
+        id="indexroom"
         src="https://i.gyazo.com/8eb1e3ee2698290bc4f3860582470ed3.jpg"
         alt="The ring"
       />
 
       <div class="buttons">
-        <a href="#"><button>Go back to The Shire</button></a>
-        <a href="companion.html"><button>Make your way to Mordor</button></a>
+        <a href="shire.html"><button>Go back to The Shire</button></a>
+        <a href="companion.html"
+          ><button id="remember-ring">Make your way to Mordor</button></a
+        >
       </div>
     </div>
     <div class="body-grid">
       <p>INVENTORY</p>
     </div>
     <div class="inventory">
-      <div class="inventory-boxes"><h5>ITEM 1</h5></div>
-      <div class="inventory-boxes"><h5>ITEM 2</h5></div>
-      <div class="inventory-boxes"><h5>ITEM 3</h5></div>
+      <div class="inventory-boxes">
+        <img id="thering" src="images/thering.png" alt="The Ring" />
+      </div>
+      <div class="inventory-boxes">
+        <img id="thesam" src="images/thesam.png" alt="Sam" />
+      </div>
+      <div class="inventory-boxes">
+        <img id="thesting" src="images/thesting.png" alt="Sting" />
+      </div>
     </div>
   </body>
 </html>
