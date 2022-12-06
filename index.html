@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The One Ring</title>
     <link rel="stylesheet" href="main.css" />
-    <script src="script.js">
-      defer
-    </script>
   </head>
   <body>
     <header>
@@ -21,7 +18,6 @@
         <p>What do you do?</p>
       </div>
     </header>
-    <div id="inventory"></div>
     <div class="body-grid">
       <img
         id="indexroom"
@@ -40,15 +36,13 @@
       <p>INVENTORY</p>
     </div>
     <div class="inventory">
-      <div class="inventory-boxes">
-        <img id="thering" src="images/thering.png" alt="The Ring" />
-      </div>
-      <div class="inventory-boxes">
-        <img id="thesam" src="images/thesam.png" alt="Sam" />
-      </div>
-      <div class="inventory-boxes">
-        <img id="thesting" src="images/thesting.png" alt="Sting" />
+        <img class="inventory-boxes" id="thering" src="images/thering.png" alt="The Ring" />
+        <img class="inventory-boxes" id="thesam" src="images/thesam.png" alt="Sam" />
+        <img class="inventory-boxes" id="thesting" src="images/thesting.png" alt="Sting" />
       </div>
     </div>
+    <script src="script.js">
+      defer
+    </script>
   </body>
 </html>

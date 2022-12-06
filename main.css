@@ -40,15 +40,12 @@ p {
 
 .inventory {
   display: flex;
-  border: 3px solid black;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .inventory-boxes {
-  text-align: center;
-  border: solid 3px red;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
 .middle-section {
@@ -69,16 +66,4 @@ p {
   justify-content: center;
   border: solid 3px blue;
   align-items: center;
-}
-
-/* .thering-hide {
-  display: none;
-} */
-
-#thesam {
-  display: none;
-}
-
-#thesting {
-  display: none;
 }

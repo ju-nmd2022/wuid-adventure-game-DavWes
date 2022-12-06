@@ -7,11 +7,11 @@ let thesam = document.getElementById("thesam");
 let bilbo = document.getElementById("bilbo");
 let thesting = document.getElementById("thesting");
 
-indexroom.addEventListener("click", function () {
-  inventory.push("indexroom");
-  thering.style.visibility = "visible";
-  console.log(indexroom);
-  sessionStorage.setItem("savethering", "itemClick");
+bilbo.addEventListener("click", function () {
+  inventory.push("bilbo");
+  thesting.style.visibility = "visible";
+  console.log(bilbo);
+  sessionStorage.setItem("savethesting", "itemClick");
 });
 
 if (sessionStorage.getItem("savethesam") != null) {
@@ -22,6 +22,6 @@ if (sessionStorage.getItem("savethering") != null) {
   thering.style.visibility = "visible";
 }
 
-function startAgain() {
-  sessionStorage.removeItem("savethering", "itemClick");
+if (sessionStorage.getItem("savethesting") != null) {
+  thesting.style.visibility = "visible";
 }

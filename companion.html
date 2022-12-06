@@ -19,22 +19,40 @@
     </header>
     <div class="body-grid">
       <img
+        id="samimage"
         src="https://i.gyazo.com/6756b6cd1bcde965b96fb5ebbf9ac0fc.png"
         alt="Pippin, Sam, Merry"
       />
 
       <div class="buttons">
-        <a href="#"><button>Go back to The Shire</button></a>
-        <a href="bilbo.html"><button>Make your way to Mordor</button></a>
+        <a id="companionbutton"><button>Make your way to Mordor</button></a>
       </div>
     </div>
     <div class="body-grid">
       <p>INVENTORY</p>
     </div>
     <div class="inventory">
-      <div class="inventory-boxes"><h5>ITEM 1</h5></div>
-      <div class="inventory-boxes"><h5>ITEM 2</h5></div>
-      <div class="inventory-boxes"><h5>ITEM 3</h5></div>
+      <img
+        class="inventory-boxes"
+        id="thering"
+        src="images/thering.png"
+        alt="The Ring"
+      />
+      <img
+        class="inventory-boxes"
+        id="thesam"
+        src="images/thesam.png"
+        alt="Sam"
+      />
+      <img
+        class="inventory-boxes"
+        id="thesting"
+        src="images/thesting.png"
+        alt="Sting"
+      />
     </div>
+    <script src="companion.js">
+      defer
+    </script>
   </body>
 </html>
