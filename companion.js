@@ -24,14 +24,9 @@ if (sessionStorage.getItem("savethering") != null) {
   thering.style.visibility = "visible";
 }
 
-companionbutton.addEventListener("click", function () {
-  if (sessionStorage.getItem("savethesam") === null) {
-    alert("You need sam!");
-    location.href = "companion.html";
-  } else {
-    location.href = "bilbo.html";
-  }
-});
+if (sessionStorage.getItem("savethesting") != null) {
+  thesting.style.visibility = "visible";
+}
 
 function startAgain() {
   sessionStorage.removeItem("savethesam", "itemClick");
